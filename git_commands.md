@@ -100,3 +100,8 @@ If you've already staged the changes, run this.
 ```
 git diff --staged
 ```
+
+**Revert files back to the latest commit:**
+```
+git reset --hard
+```
