@@ -103,7 +103,12 @@ If you've already staged the changes, run this.
 git diff --staged
 ```
 
-Green represents lines that have been added. Red represents lines that have been removed. If these commands take you out of the command line, press the **q** key to return to it.
+```diff
++Green represents lines that have been added
+-Red represents lines that have been removed
+```
+
+If these commands take you out of the command line, press the **q** key to return to it.
 
 **Revert files back to the latest commit:**
 ```
