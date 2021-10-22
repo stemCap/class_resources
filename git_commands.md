@@ -1,6 +1,6 @@
 # Commonly used git commands
 
-## ***The basics:***
+## ***The Fundamentals:***
 
 **Create repository:**
 ```
@@ -43,7 +43,14 @@ git pull
 
 ---
 
-## ***Going deeper***
+## ***Going Deeper***
+
+**View list of local branches and see what branch you are currently on:**
+
+The branch with a **\*** next to it is the one you are currently on. If this command takes you out of the command line, press the **q** key to return to it.
+```
+git branch
+```
 
 **Create a new branch and switch to it:**
 ```
@@ -61,6 +68,8 @@ git checkout <branch name>
 ```
 
 **Delete an existing branch:**
+
+You cannot delete the branch you are currently on.
 ```
 git branch -d <branch name>
 ```
