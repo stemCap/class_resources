@@ -1,6 +1,6 @@
 # Commonly used git commands
 
-## ***The Fundamentals:***
+## ***The Fundamentals***
 
 **Create repository:**
 ```
